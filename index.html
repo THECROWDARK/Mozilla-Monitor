@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mozilla Monitor</title>
+    <!--my css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--favicon (foto de pestana)-->
+    <link rel="icon" type="image/png" href="img/Favicon.svg.png">
+</head>
+<body>
+    <!--nav es una clace que hace referencia a la barra de arriba-->
+    <nav class="navbar">
+        <img src="img/monitor-logo.svg" alt="">
+        <button onclick="window.location.href='pages/login.html'" class="button_secondary">Iniciar sesion</button>
+    </nav>
+  
+    <main class="main">
+
+        <section class="main__section__one">
+            <div class="main__section__one--info">
+                <h1>Compruebe si su información personal se ha visto comprometida</h1>
+                <p>Mantente seguro con las herramientas de privacidad de los creadores de Firefox que te protegen de los hackers y de las empresas que publican y venden tu información personal. Te avisaremos de cualquier violación de datos conocida, encontraremos y eliminaremos tu información expuesta y vigilaremos continuamente las nuevas exposiciones.</p> <!--alf mas z para hacer cambio de parrafo-->
+                <form action=""> <!--formulario-->
+                    <input type="email" class="input__primary" placeholder="Escribe tu direccion de correo"> <!--formulario (input= entrada de datos/recuadro)-->
+                </form>
+                <button class="button_primary">Consulta las filtraciones</button>
+            </div>
+            <div class="main__section__one--img">
+                <img src="img/img-section-one.webp" alt="">
+
+            </div>
+        </section>
+
+        <section class="main__section__two">
+            <div class="main__section__two--because">
+                <h2>¿Por qué usar Firefox Monitor?</h2>
+                <p>Identificar y resolver filtraciones de datos es un paso importante para garantizar tu privacidad en línea.</p>
+            </div>
+            <div class="main__section__two--reasons">
+                <div class="main__section__two--reasons--reason">
+                    <div>
+                        <img src="img/icon-shield.svg" alt="">
+                        <h3>Protege tus cuentas</h3>
+                    </div>
+                    <p>Evita que los piratas informáticos ingresen a tus cuentas con contraseñas vulneradas.</p>
+                </div>
+                <div class="main__section__two--reasons--reason">
+                    <div>
+                        <img src="img/icon-mask.svg" alt="">
+                        <h3>Prevenir el fraude y los delitos cibernéticos</h3>
+                    </div>
+                    <p>Mantén tu información alejada de los piratas informáticos que quieren hacerse pasar por ti y cometer delitos.</p>
+                </div>
+                <div class="main__section__two--reasons--reason">
+                    <div>
+                        <img src="img/icon-megaphone.svg" alt="">
+                        <h3>Recibe alertas de nuevas filtraciones</h3>
+                    </div>
+                    <p>Averigua cada vez que tu información personal es comprometida en una nueva filtración de datos conocida..</p>
+                </div>
+            </div>
+
+        </section>
+        <section class="main__section__three">
+            <div class="main__section__three--function">
+                <h2>Así es cómo funciona</h2>
+            </div>
+            <div class="main__section__three--functions">
+                <div class="main__section__three--functions--function">
+                    <img class="img1" src="img/landing-laptop.webp" alt="">
+                    <h3>Revisar filtraciones</h3>
+                    <p>Buscaremos todas las filtraciones de datos conocidas desde 2007 para ver si tu información se vio comprometida.</p>
+                </div>
+                <div class="main__section__three--functions--function">
+                    <img class="img2" src="img/landing-lock.webp" alt="">
+                    <h3>Protege tus cuentas</h3>
+                    <p>Te daremos pasos claros sobre qué hacer a continuación para cualquier filtración de datos en la que hayas estado involucrado.</p>
+                </div>
+                <div class="main__section__three--functions--function">
+                    <img class="img3" src="img/landing-mail.webp" alt="">
+                    <h3>Recibe alertas de nuevas filtraciones</h3>
+                    <p>Supervisaremos continuamente nuevas filtraciones de datos y te informaremos si te has visto afectado.</p>
+                </div>
+            </div>
+
+        </section>
+        <section class="main__section__four">
+            <div class="main__section__four--container">
+                <div class="main__section__four--container--info">
+                    <h2>Tu privacidad esta segura con nosotros</h2>
+                    <p>En Mozilla, la empresa matriz de Firefox y Firefox Monitor, creemos que la seguridad y la privacidad de las personas en Internet son fundamentales y no deben considerarse opcionales.</p>
+                    <p>Nuestra misión es construir una mejor Internet — una en la que las personas puedan dar forma a sus propias experiencias, sentirse empoderadas y mantenerse seguras. Somos propiedad exclusiva de Fundación Mozilla, una organización sin fines de lucro, lo que nos permite anteponer los beneficios individuales y públicos a las ganancias.</p>
+                    <a href="#">Saber más sobre nuestra misión</a>
+                </div>
+                <div class="main__section__four--container--img">
+                    <img src="img/landing-nature-phone.webp" >
+
+                </div>
+            </div>
+        </section>
+        <section class="main__section__five">
+            <div class="main__section__five--question">
+                <h2>Principales preguntas sobre Firefox Monitor</h2>
+                <a href="#">Ver todas las preguntas frecuentes</a>
+            </div>
+            <div class="main__section__five--links">
+                <div class="main__section__five--links--link">
+                    <div>
+                        <p>¿Qué es exactamente una filtración de datos?</p>
+                        <button class="button__toggle">+</button>
+                    </div>
+                    <p class="main__section__five--links--link--content">Una violación de datos se produce cuando información personal o privada queda expuesta, es robada o copiada sin permiso. Estos incidentes de seguridad pueden ser el resultado de ciberataques a sitios web, aplicaciones o cualquier base de datos en la que resida información personal. Una violación de datos también puede ocurrir por accidente, como si las credenciales de inicio de sesión de alguien se publican accidentalmente.</p>
+                </div>
+                <div class="main__section__five--links--link">
+                    <div>
+                        <p>Acabo de ver que mis datos aparecen en una filtración. ¿Qué debo hacer?</p>
+                        <button class="button__toggle">+</button>
+                    </div>
+                    <p class="main__section__five--links--link--content">Visita Firefox Monitor para saber qué hacer después de una filtración de datos. Los piratas informáticos confían en que las personas reutilicen las contraseñas, por lo que es importante crear contraseñas seguras y únicas para todas tus cuentas. Guarda tus contraseñas en un lugar seguro al que solo tu tengas acceso; este podría ser el mismo lugar donde almacenas documentos importantes o un administrador de contraseñas.</p>
+                </div>
+                <div class="main__section__five--links--link">
+                    <div>
+                        <p>¿Qué información queda expuesta en las filtraciones de datos?</p>
+                        <button class="button__toggle">+</button>
+                    </div>
+                    <p class="main__section__five--links--link--content">No todas las violaciones exponen la misma información. Depende de a qué puedan acceder los piratas informáticos. Muchas revelan direcciones de correo electrónico y contraseñas. Otras exponen información más sensible, como números de tarjetas de crédito, pasaportes y números de la seguridad social.</p>
+                </div>
+            </div>
+        </section>
+        <section class="main__section__six">
+            <div class="main__section__six--container">
+                <div class="main__section__six--container--info">
+                    <h2>Descubre si has sido parte de una filtración de datos</h2>
+                    <button class="button_primary">Comenzar</button>
+                    <p>by JuanDavid_Dev</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+   
+    <footer class="footer">
+        <div class="footer--links">
+            <a href="#">Sitio oficial</a>
+        </div>
+
+    </footer>
+  
+    <!--js-->
+    <script src="js/app.js"></script>
+
+</body>
+</html>
